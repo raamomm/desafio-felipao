@@ -1,7 +1,7 @@
 let nomeJogador = "Chrono"
 let xpPersonagem = 0
 
-console.log(" O nível atual do jogador é Ferro")
+console.log("O nível atual do jogador é Ferro")
 for(xpPersonagem =1; xpPersonagem <1000;){
     xpPersonagem += 500
     console.log("O herói " + nomeJogador + " ganhou 500 de xp. Seu xp agora é " + xpPersonagem)
@@ -9,7 +9,7 @@ for(xpPersonagem =1; xpPersonagem <1000;){
 }
 if(xpPersonagem >= 1000)
     
-    console.log("Você avançou para o próximo nível. O nível de " +nomeJogador + " é Bronze e seu xp atual é " + xpPersonagem)
+    console.log("Parabéns, você subiu de nível. O nível do herói " +nomeJogador + " é Bronze e seu xp atual é " + xpPersonagem)
 else{
 
 }
@@ -20,7 +20,7 @@ do{
     
 }
 while(xpPersonagem < 2000){
-    console.log("Você avançou para o próximo nível. O nível de " + nomeJogador + " é Prata e o seu xp é " + xpPersonagem)
+    console.log("Parabéns, você subiu de nível. O nível do herói " + nomeJogador + " é Prata e o seu xp é " + xpPersonagem)
    
     }
 
